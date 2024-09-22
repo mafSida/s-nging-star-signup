@@ -1,0 +1,96 @@
+body {
+  height: 100vh;
+  background-color: #002e48;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00507c;
+  font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+input {
+  border: none;
+  outline: transparent;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  width: 1600px;
+  height: auto;
+  box-shadow: 0 0 48px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.left-side {
+  background: #cedde6;
+  padding: 105px 200px;
+}
+.left-side-text {
+  font-weight: 700;
+  font-size: 52px;
+  text-align: center;
+}
+.signup-formfield {
+}
+.signup-label {
+}
+.input-wrap {
+}
+.signup-input {
+  border-radius: 48px;
+  width: 600px;
+  height: 72px;
+  color: #ffffff;
+  padding-left: 64px;
+  margin-bottom: 24px;
+}
+
+.signup-input::placeholder {
+  font-size: 20px;
+  color: #00507c;
+}
+
+.signup-input-icon {
+}
+.signup-checkbox-wrap {
+}
+.signup-checkbox-input {
+}
+.signup-check-label {
+  font-weight: 300;
+  font-size: 20px;
+}
+.signup-fake-check {
+}
+.singin-text {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+.right-side {
+  position: relative;
+}
+.right-side-text {
+  position: absolute;
+  top: 132;
+  min-width: 361px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 36px;
+}
